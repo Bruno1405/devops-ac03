@@ -9,11 +9,11 @@ if len(jogo) != 3:
 else:
    for linha in jogo:
        if len(linha) != 3:
-	    erroInicializar = True
+            erroInicializar = True
        else:
-	    for elemento in linha:
-		if elemento != '.':
-		   erroInicializar = True
+            for elemento in linha:
+                if elemento != '.':
+                    erroInicializar = True
 if erroInicializar:
    sys.exit(1)
 else:
